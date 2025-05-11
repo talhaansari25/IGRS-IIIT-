@@ -1,0 +1,8 @@
+admin/node_modules
+client/node_modules
+dbserver/node_modules
+dbserver/.env
+mlapi/env
+temp_uploads
+img
+mlapi/secrects.py

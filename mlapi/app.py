@@ -41,7 +41,7 @@ clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 hf_client = InferenceClient(
     provider="nebius",
-    # api_key=env['hf_token'].
+    api_key=env['hf_token']
 )
 ocr_engine = PaddleOCR(use_angle_cls=True, lang='en', use_gpu=True)
 

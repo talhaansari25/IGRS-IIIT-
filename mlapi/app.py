@@ -310,7 +310,7 @@ def classify_text_complaint():
 #                 extracted_fields['date'] = date.group(2)
         
 #         elif doc_type == 'identity':
-#             # Extract ID fields
+#             # Extract ID field
 #             id_no = re.search(r'(number|no|#)\s*[:=]?\s*([A-Z0-9]{8,12})', full_text, re.IGNORECASE)
 #             if id_no:
 #                 extracted_fields['id_number'] = id_no.group(2)

@@ -168,7 +168,7 @@ def predict_and_describe_image():
             "error": str(e)
         }), 500
 
-# ... [rest of your existing routes remain the same] 
+# [rest of your existing routes remain the same] 
 
 
 

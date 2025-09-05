@@ -328,7 +328,7 @@ def classify_text_complaint():
 #         })
         
 #     except Exception as e:
-#         # Clean up in case of error
+#         # Cleanup in case of error
 #         if 'img_path' in locals():
 #             try:
 #                 os.remove(img_path)

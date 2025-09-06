@@ -1,4 +1,4 @@
-
+// filter pannel
 import '../styles/main.css';
 
 const FilterPanel = ({ filters, onFilterChange }) => {

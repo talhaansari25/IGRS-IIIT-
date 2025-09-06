@@ -1,3 +1,4 @@
+// App. jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AdminDashboard from './pages/AdminDashboard';
 import StatusPage from './pages/StatusPage';

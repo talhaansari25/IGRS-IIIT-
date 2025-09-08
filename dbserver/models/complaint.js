@@ -1,3 +1,4 @@
+// complaints
 import mongoose from "mongoose";
 
 const complaintSchema = new mongoose.Schema({

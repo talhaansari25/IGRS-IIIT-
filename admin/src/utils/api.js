@@ -199,7 +199,7 @@ export const deleteComplaint = async (id) => {
   
   if (apiResponse) return apiResponse;
   
-  // Fallback to mock
+
   const index = mockComplaints.findIndex(c => c._id === id);
   if (index === -1) throw new Error('Complaint not found');
   const [deleted] = mockComplaints.splice(index, 1);

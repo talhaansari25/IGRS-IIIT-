@@ -102,7 +102,7 @@ const fetchWithFallback = async (url, options) => {
   }
 };
 
-// API functions with fallback to mock data
+// API function with fallback to mock data
 export const fetchComplaints = async (filters = {}) => {
   await simulateDelay();
   

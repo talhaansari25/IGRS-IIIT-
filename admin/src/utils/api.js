@@ -110,7 +110,7 @@ export const fetchComplaints = async (filters = {}) => {
   const apiData = await fetchWithFallback(BASE_URL);
   let results = apiData ? apiData : [...mockComplaints];
   
-  // Apply filters
+  // Apply filter
   if (filters.status) {
     results = results.filter(c => c.status === filters.status);
   }

@@ -86,7 +86,7 @@ const mockComplaints = [
     }
   ];
   
-  // Helper functions
+  // Helper function
 const simulateDelay = () => new Promise(resolve => setTimeout(resolve, 300));
 let nextId = mockComplaints.length + 1;
 const generateId = () => (nextId++).toString();

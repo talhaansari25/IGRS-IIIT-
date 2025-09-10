@@ -1,4 +1,4 @@
-// Status page
+
 import { useState, useEffect } from 'react';
 import ComplaintCard from '../components/ComplaintCard';
 import StatusFilter from '../components/StatusFilter';

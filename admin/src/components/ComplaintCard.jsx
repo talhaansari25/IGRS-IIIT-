@@ -1,4 +1,4 @@
-// complaint card
+
 import '../styles/main.css';
 
 const ComplaintCard = ({ complaint, onUpdate, onDelete }) => {

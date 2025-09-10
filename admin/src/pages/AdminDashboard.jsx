@@ -1,4 +1,4 @@
-// Admin dashboard
+
 import { useState, useEffect } from 'react';
 import ComplaintCard from '../components/ComplaintCard';
 import UpdateModal from '../components/UpdateModal';

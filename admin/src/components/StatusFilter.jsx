@@ -1,4 +1,4 @@
-//status filter
+
 import '../styles/main.css';
 
 const StatusFilter = ({ currentFilter, onFilterChange }) => {
